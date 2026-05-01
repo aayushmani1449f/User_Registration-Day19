@@ -11,5 +11,7 @@ public class Main {
         System.out.println(registration.validateMobile("919919819801"));
         System.out.println(registration.validatePasswordRule1("password123"));
         System.out.println(registration.validatePasswordRule1("pass"));
+        System.out.println(registration.validatePasswordRule2("Password123"));
+        System.out.println(registration.validatePasswordRule2("password123"));
     }
 }

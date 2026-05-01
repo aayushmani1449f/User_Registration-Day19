@@ -20,4 +20,8 @@ public class UserRegistration {
     public boolean validatePasswordRule1(String password) {
         return Pattern.matches("^.{8,}$", password);
     }
+
+    public boolean validatePasswordRule2(String password) {
+        return Pattern.matches("^(?=.*[A-Z]).{8,}$", password);
+    }
 }
