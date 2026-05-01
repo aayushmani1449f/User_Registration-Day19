@@ -15,5 +15,7 @@ public class Main {
         System.out.println(registration.validatePasswordRule2("password123"));
         System.out.println(registration.validatePasswordRule3("Password123"));
         System.out.println(registration.validatePasswordRule3("Password"));
+        System.out.println(registration.validatePasswordRule4("Password@123"));
+        System.out.println(registration.validatePasswordRule4("Password123"));
     }
 }

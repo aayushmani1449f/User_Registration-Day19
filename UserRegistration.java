@@ -28,4 +28,8 @@ public class UserRegistration {
     public boolean validatePasswordRule3(String password) {
         return Pattern.matches("^(?=.*[A-Z])(?=.*[0-9]).{8,}$", password);
     }
+
+    public boolean validatePasswordRule4(String password) {
+        return Pattern.matches("^(?=.*[A-Z])(?=.*[0-9])(?=[a-zA-Z0-9]*[^a-zA-Z0-9][a-zA-Z0-9]*$).{8,}$", password);
+    }
 }
