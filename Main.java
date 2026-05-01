@@ -5,5 +5,7 @@ public class Main {
         System.out.println(registration.validateFirstName("aa"));
         System.out.println(registration.validateLastName("Mani"));
         System.out.println(registration.validateLastName("ma"));
+        System.out.println(registration.validateEmail("abc.xyz@bl.co.in"));
+        System.out.println(registration.validateEmail("abc@bl.co"));
     }
 }
