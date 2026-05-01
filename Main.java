@@ -7,5 +7,7 @@ public class Main {
         System.out.println(registration.validateLastName("ma"));
         System.out.println(registration.validateEmail("abc.xyz@bl.co.in"));
         System.out.println(registration.validateEmail("abc@bl.co"));
+        System.out.println(registration.validateMobile("91 9919819801"));
+        System.out.println(registration.validateMobile("919919819801"));
     }
 }
