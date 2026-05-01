@@ -9,5 +9,7 @@ public class Main {
         System.out.println(registration.validateEmail("abc@bl.co"));
         System.out.println(registration.validateMobile("91 9919819801"));
         System.out.println(registration.validateMobile("919919819801"));
+        System.out.println(registration.validatePasswordRule1("password123"));
+        System.out.println(registration.validatePasswordRule1("pass"));
     }
 }
