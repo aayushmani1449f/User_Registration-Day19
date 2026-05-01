@@ -3,5 +3,7 @@ public class Main {
         UserRegistration registration = new UserRegistration();
         System.out.println(registration.validateFirstName("Aayush"));
         System.out.println(registration.validateFirstName("aa"));
+        System.out.println(registration.validateLastName("Mani"));
+        System.out.println(registration.validateLastName("ma"));
     }
 }
